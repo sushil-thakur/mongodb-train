@@ -114,8 +114,10 @@ use("big-mart");
 
 //? updateMany
 //?set price of all products to 1000
-db.products.updateMany({},{
-    $set:{price:1000,
-}
-})
-db.products.find();
+// db.products.updateMany({},
+//     {
+//     $set:{
+//         price:1000,
+// }
+// })
+// db.products.find();
