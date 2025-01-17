@@ -46,6 +46,10 @@ use("student-management");
 //?not
 //?nor
 
+//? why NAND gate is not used in this logical operator
+//? because NAND gate is not used in this logical operator
+//? give reason why NAND gate is not used in this logical operator
+
 //?or
 //find movies whose rating is 9 or country is "canada"
 // db.movies.find({$or:[{"rating.average":9},{"network.country.name":"Canada"}]});
@@ -83,4 +87,6 @@ use("student-management");
 //     {"rating.average":8.5},{"rating.average":9},
 //     {"rating.average":9.2},{"rating.average":9.3}]});
 
-db.movies.find({"rating.average":{$in:[7,7.5,8,8.5,9,9.2,9.3]}},{name:1, rating:1});
+// db.movies.find({"rating.average":{$in:[7,7.5,8,8.5,9,9.2,9.3]}},{name:1, rating:1});
+//nin mean deko value banda arko garnu xa vane
+

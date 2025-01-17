@@ -34,5 +34,5 @@ use("patan-hospital");
 // db.patients.updateMany({},{$set:{phoneNum:"9845671234"}});
 //?delete many
 // db.patients.deleteMany({},{$set:{phoneNum:"9845671234"}});
-db.patients.find();
+// db.patients.find();
 
